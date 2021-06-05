@@ -1,0 +1,88 @@
+input.city {
+  font-size: 20px;
+  width: 600px;
+  background: lavender;
+  margin: 10px;
+  border: lavender;
+  box-shadow: 3px 3px 10px 0px cornflowerblue;
+}
+
+.search {
+  font-size: 20px;
+  background: lavender;
+  color: grey;
+  border: lavender;
+  box-shadow: 3px 3px 5px 1px cornflowerblue;
+}
+body {
+  background-image: url("images/pexels-pixabay-53594.jpg");
+  background-size: 1600px 800px;
+}
+div.middlle {
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  display: table-cell;
+}
+
+div.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  font-size: 50px;
+  background-image: url(images/pexels-pixabay-53594.jpg);
+  background-size: 400px;
+  box-shadow: 5px 5px 10px 0px cornflowerblue;
+  margin-top: 5%;
+}
+
+header.current-city {
+  font-size: 26px;
+  color: white;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 85px;
+}
+
+div.current-temp {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  color: orange;
+}
+a {
+  font-size: 25px;
+  color: orange;
+  text-decoration: none;
+}
+div.current-time {
+  position: relative;
+  text-align: center;
+  font-size: 27px;
+  color: rgb(15, 135, 233);
+  font-weight: 500;
+  top: 90px;
+}
+.date {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+.col-sm {
+  width: 25px;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  width: 50px;
+  height: 200px;
+  border-radius: 50px;
+  border: blue;
+  box-shadow: 5px 5px 10px 10px cornflowerblue;
+  margin: 10px;
+}

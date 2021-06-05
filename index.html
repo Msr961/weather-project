@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container ">
+      <div class="weather-app">
+        <form action="search" id="search-form">
+      <input
+        type="text"
+        placeholder="Enter a city"
+        aftofocus="on"
+        class="city"
+        id="query" 
+      />
+      <input type="submit"
+       value="Seach"
+        class="search"/>
+      </form>
+    </div>
+       <p>
+        <div class="middle">
+<div class="circle">
+  <header class=" current-city" >
+    <marquee direction="left">
+     <h3 id="city"> Amsterdam, Netherlands</h3>
+    </marquee>
+  <div class="current-temp" id="temperature"> 
+    <span style="font-size: 60%;">🌤️</span>
+    10°<span class="units">
+      <a href="#"id="celsius-link">°C </a>  
+      <a href="#" id="fahrenheit-link">°F</a>
+  </div>
+  </header>
+<div class ="current-time">
+  <span style="font-size: 70%;color: rgb(25, 134, 25)">
+      19km/h
+  </span> 
+   16:00  
+   <span 
+   style="font-size:70%;color:  #184992">
+   56%
+  </span>
+</div>
+<footer class=" date"> 02/05/2021</footer>
+   </div>
+  </div>
+
+      </p>
+      <div class="container px-5 py-5">
+          <div class="row"
+          i>
+            <div class="col-sm" class="circle1">
+              
+                🌦️Monday
+              <div 
+              style="font-size:22px;
+              color:orange;">13°C/7°C<footer style="color:#184992"">💧64%</footer></div>
+              
+             </div>
+            <div class="col-sm">
+                🌧️Tuesday<div style="font-size: 22px;color:orange">9°C🌡️ 5°C<footer style="color:#184992">💧82%</footer></div>
+            </div>
+            <div class="col-sm">
+                🌧️Wensday<div style="font-size:22px;color:orange"> 10°C 🌡️7°C<footer style="color:#184992">💧61%</footer></span></div>
+            </div>
+            <div class="col-sm">
+                🌧️ Thursday<div style="font-size: 22px;color:orange">11°C🌡️4°C<footer style="color:#184992">💧78%</footer></div>
+            </div>
+            <div class="col-sm">
+                ⛈️ Friday<div style="font-size: 22px;color:orange">10°C🌡️3°C<footer style="color:#184992">💧85%</footer></div>
+            </div>
+          </div>
+        
+      <script src="src/index.js"></script>
+        </div>
+  </body>
+</html>
